@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background circle for the magnitude value -->
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!-- Drop Shadow Stack -->
+<!-- Background -->
+<item>
+    <shape
+        android:shape="oval">
+        <solid android:color="#7b000000" />
+        <size
+            android:width="36dp"
+            android:height="36dp" />
+        <corners android:radius="18dp" />
+
+    </shape>
+</item>
+
+</layer-list>

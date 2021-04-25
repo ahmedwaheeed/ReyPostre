@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:visible="true"
+        >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_pic"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_heart_checked"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/ic_new"
+            android:title="New recipes" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Shopping cart" />
+    </group>
+
+
+    <item android:title="Desserts"
+        android:checkable="true"
+        >
+        <menu>
+
+            <group
+                android:checkableBehavior="single"
+                android:visible="true">
+
+            <item
+                android:id="@+id/nav_cake"
+                android:icon="@drawable/ic_cake"
+                android:title="Cakes" />
+
+            <item
+                android:id="@+id/nav_breakfast"
+                android:icon="@drawable/ic_breakfast"
+                android:title="Breakfast" />
+
+            <item
+                android:id="@+id/nav_ic_cream"
+                android:icon="@drawable/ic_ice_cream"
+                android:title="Ice cream" />
+
+            <item
+                android:id="@+id/nav_pastry"
+                android:icon="@drawable/ic_pastry"
+                android:title="Pastry" />
+
+            <item
+                android:id="@+id/nav_cupcakes"
+                android:icon="@drawable/ic_cupcake"
+                android:title="Cupcakes" />
+
+            <item
+                android:id="@+id/nav_pie"
+                android:icon="@drawable/ic_pie"
+                android:title="Pies" />
+
+            <item
+                android:id="@+id/nav_pudding"
+                android:icon="@drawable/ic_pudding"
+                android:title="Pudding" />
+
+            <item
+                android:id="@+id/nav_baby"
+                android:icon="@drawable/ic_kids"
+                android:title="For kids" />
+
+            <item
+                android:id="@+id/nav_nobake"
+                android:icon="@drawable/ic_nobake"
+                android:title="No bake" />
+
+            <item
+                android:id="@+id/nav_others"
+                android:icon="@drawable/ic_others"
+                android:title="Other desserts"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Around the world"
+        android:checkable="true"
+        >
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:visible="true">
+            <item
+                android:id="@+id/nav_arabic"
+                android:icon="@drawable/ic_arabic"
+                android:title="Arabic desserts" />
+
+            <item
+                android:id="@+id/nav_JapAndCh"
+                android:icon="@drawable/ic_japan"
+                android:title="Asian desserts" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communications"
+        android:checkable="true"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_star"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_menu"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_other"
+                android:icon="@drawable/ic_other_app"
+                android:title="Other Apps" />
+
+        </menu>
+    </item>
+</menu>

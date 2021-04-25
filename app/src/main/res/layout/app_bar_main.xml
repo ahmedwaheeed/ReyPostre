@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layoutt"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.waheed.reypostre.recipes.projects.android.reypostre.MainActivity">
+
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:id="@+id/app_bar_layout"
+            android:layout_height="wrap_content"
+            >
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    android:theme="@style/AppTheme.AppBarOverlay"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    >
+
+                </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <include layout="@layout/content_main" />
+
+        <View
+            android:id="@+id/gradientShadow"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@drawable/dropshadow"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_collapseMode="pin"/>
+
+        <View
+            android:id="@+id/gradientShadowDown"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="3dp"
+            android:background="@drawable/dropshadowdown" />
+    </FrameLayout>
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:theme="@style/AppThemeNavigation"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation" />
+
+</LinearLayout>

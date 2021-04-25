@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Hello Dessert</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_about">Credits</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_log">Sign out</string>
+    <string name="mini">Minimum 8 characters</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Dessert!</string>
+    <string name="slide_1_desc">The easiest way to find a recipe for your favourite dessert!</string>
+
+    <string name="slide_2_title">Fast Search</string>
+    <string name="slide_2_desc">Search desserts recipes and enjoy it with your family and friends!</string>
+
+    <string name="slide_3_title">Share Service</string>
+    <string name="slide_3_desc">Best recipes for you and your friends, share now!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">More than 300 recipe from all over the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="about_app">Hello dessert app is one of the biggest apps in cooking zone, we have more than 500 recipe of desserts from all over the world. Here you can find any fantastic desserts to share with you friends. Ask you friend to download our app.</string>
+
+    <string name="about_app_sec2">All recipes in this app from:</string>
+
+    <string name="taste_url">http://www.taste.com.au/</string>
+
+    <string name="about_app_sec3">All icons in this app from:</string>
+
+    <string name="icons8_url">https://icons8.com/</string>
+
+    <string name="developer">This application developed by Ahmed Waheed Hassan (Android developer), 15 years old.</string>
+    <string name="user_guide">User Guide</string>
+    <string name="open_source_license">Open source licenses</string>
+</resources>

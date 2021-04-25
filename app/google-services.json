@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "247617986252",
+    "firebase_url": "https://hellodessert-70a10.firebaseio.com",
+    "project_id": "hellodessert-70a10",
+    "storage_bucket": "hellodessert-70a10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247617986252:android:9c388a5b02c07f83",
+        "android_client_info": {
+          "package_name": "com.waheed.reypostre.recipes.projects.android.reypostre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247617986252-li3vc762riu4u02emik3qhl82fvj7pv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-htwxX0auiSpaFbIA74BL6nOuWjHk_wA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
